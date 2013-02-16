@@ -1,0 +1,6 @@
+Here’s an example which implements a help interface in a layered application.
+Say the user right-clicks an element in the UI and requests help for a particular
+visual element. If the front end of the application can handle the help request, it
+will handle that request; if it can’t, it passes that request on to the intermediate
+layer of the application; if the help request still can’t be handled, it’s passed on
+to the application object itself, which displays a default message.

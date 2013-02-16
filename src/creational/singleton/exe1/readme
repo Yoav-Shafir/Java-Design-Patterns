@@ -1,0 +1,3 @@
+Singleton implementation in 2 ways:
+- using static method with the synchronized key word (DatabaseSynchronized).
+- creating the instance already in class loading phase (DatabaseThreaded).
