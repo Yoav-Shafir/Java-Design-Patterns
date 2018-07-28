@@ -21,5 +21,4 @@ public class CarElementPrintVisitor implements CarElementVisitor {
 	public void visit(Car car) {
 		System.out.println("Visiting car");
 	}
-
 }

@@ -6,5 +6,4 @@ public class Application implements HelpInterface {
 	public void getHelp(int helpConstant) {
 		System.out.println("This is the Application which is last in the chain.");
 	}
-
 }

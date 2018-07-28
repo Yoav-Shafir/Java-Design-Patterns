@@ -21,5 +21,4 @@ public class CarElementDoVisitor implements CarElementVisitor {
 	public void visit(Car car) {
 		System.out.println("Starting my car");
 	}
-
 }

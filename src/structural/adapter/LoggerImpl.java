@@ -17,5 +17,4 @@ public class LoggerImpl extends Logger {
 	public void log(String str) {
 		System.out.println("LOG: " + str);
 	}
-
 }

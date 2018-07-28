@@ -6,5 +6,4 @@ public class Engine implements VisitableCarElement {
 	public void accept(CarElementVisitor visitor) {
 		visitor.visit(this);
 	}
-
 }
